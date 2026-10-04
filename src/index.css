@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-google: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-google);
+    background-color: #ffffff;
+    color: #1f1f1f;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Material You Clean Light Tokens */
+.google-surface {
+  background-color: #f0f4f9;
+}
+
+.google-surface-variant {
+  background-color: #e9eef6;
+}
+
+/* Markdown in Google Clean Light Spec */
+.markdown-body {
+  font-family: var(--font-roboto);
+  color: #1f1f1f;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.markdown-body p {
+  margin-bottom: 0.85rem;
+}
+
+.markdown-body pre {
+  background-color: #f0f4f9;
+  border: 1px solid #e1e3e1;
+  padding: 1rem;
+  border-radius: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: #1f1f1f;
+}
+
+.markdown-body code {
+  background-color: #f0f4f9;
+  color: #0b57d0;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.375rem;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  font-family: var(--font-google);
+  color: #1f1f1f;
+  font-weight: 500;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 0.85rem;
+  padding-left: 1.25rem;
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+}
+
+.markdown-body ol {
+  list-style-type: decimal;
+}
+
+.markdown-body a {
+  color: #0b57d0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid #0b57d0;
+  padding-left: 0.85rem;
+  color: #444746;
+  font-style: italic;
+  margin-bottom: 0.85rem;
+}
+
+/* Light Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c7c5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8e918f;
+}

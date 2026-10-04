@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="100%" stop-color="#0b57d0" />
+    </linearGradient>
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea4335" />
+      <stop offset="100%" stop-color="#d93025" />
+    </linearGradient>
+    <linearGradient id="gYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbc04" />
+      <stop offset="100%" stop-color="#f29900" />
+    </linearGradient>
+    <linearGradient id="gGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34a853" />
+      <stop offset="100%" stop-color="#1e8e3e" />
+    </linearGradient>
+    <filter id="m3Shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0b57d0" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  
+  <!-- Material 3 Rounded Squircle Surface -->
+  <rect width="512" height="512" rx="140" fill="#f8fafd" filter="url(#m3Shadow)" />
+  <rect width="504" height="504" x="4" y="4" rx="136" fill="none" stroke="#e1e3e1" stroke-width="4" />
+
+  <!-- Iconic 'J' Monogram with Google Stitch Spark -->
+  <!-- Top Bar / Hook of J -->
+  <path d="M 230 130 L 340 130 C 362 130 380 148 380 170 C 380 192 362 210 340 210 L 290 210 L 290 290 C 290 350 240 400 180 400 C 130 400 90 365 90 320 C 90 298 108 280 130 280 C 152 280 170 298 170 320 C 170 331 174 340 180 340 C 196 340 210 326 210 310 L 210 170 C 210 148 228 130 250 130 Z" fill="url(#gBlue)" />
+  
+  <!-- Overlapping Stitch Spark Dot in Google Colors -->
+  <circle cx="360" cy="270" r="32" fill="url(#gRed)" />
+  <circle cx="410" cy="200" r="22" fill="url(#gYellow)" />
+  <circle cx="330" cy="350" r="26" fill="url(#gGreen)" />
+  
+  <!-- Subtle Stitch Connector Line -->
+  <path d="M 290 210 Q 360 270 410 200" stroke="#fbbc04" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6" stroke-dasharray="8 8" />
+</svg>
